@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="bakery.css"?>
+<bakery>
+    <item>
+        <name>Bread</name>
+        <price>$2.50</price>
+        <category>Bakery</category>
+    </item>
+    <item>
+        <name>Croissant</name>
+        <price>$1.75</price>
+        <category>Pastry</category>
+    </item>
+    <item>
+        <name>Chocolate Cake</name>
+        <price>$15.00</price>
+        <category>Cake</category>
+    </item>
+    <item>
+        <name>Donut</name>
+        <price>$1.20</price>
+        <category>Pastry</category>
+    </item>
+</bakery>
