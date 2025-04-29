@@ -1,0 +1,30 @@
+bakery {
+    display: block;
+    background-color: #fff7f0;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+item {
+    display: block;
+    border: 2px solid #ffd1a4;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #fff;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+}
+
+name {
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    color: #d2691e;
+    margin-bottom: 5px;
+}
+
+price, category {
+    display: block;
+    font-size: 16px;
+    color: #333;
+}

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="students.css"?>
+<students>
+    <student>
+        <name>Rahul Sharma</name>
+        <rollno>101</rollno>
+        <class>10th Grade</class>
+        <section>A</section>
+    </student>
+    <student>
+        <name>Anjali Verma</name>
+        <rollno>102</rollno>
+        <class>10th Grade</class>
+        <section>B</section>
+    </student>
+    <student>
+        <name>Vikas Patil</name>
+        <rollno>103</rollno>
+        <class>9th Grade</class>
+        <section>A</section>
+    </student>
+    <student>
+        <name>Priya Desai</name>
+        <rollno>104</rollno>
+        <class>9th Grade</class>
+        <section>B</section>
+    </student>
+</students>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="sports.css"?>
+<sports>
+    <sport>
+        <name>Cricket</name>
+        <category>Team</category>
+        <popularity>High</popularity>
+    </sport>
+    <sport>
+        <name>Badminton</name>
+        <category>Individual</category>
+        <popularity>Medium</popularity>
+    </sport>
+    <sport>
+        <name>Football</name>
+        <category>Team</category>
+        <popularity>High</popularity>
+    </sport>
+    <sport>
+        <name>Basketball</name>
+        <category>Team</category>
+        <popularity>High</popularity>
+    </sport>
+    <sport>
+        <name>Swimming</name>
+        <category>Individual</category>
+        <popularity>Medium</popularity>
+    </sport>
+</sports>
