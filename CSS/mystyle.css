@@ -1,0 +1,47 @@
+body {
+    text-align: center;
+    padding: 50px;
+   color: aliceblue;
+    margin: 20px; 
+    background-size: cover;
+    background-image: url(./download.jpg);
+}
+
+#fname, #lname, #Ename, #Cname, #pname,#name {
+    border-style: inset;
+   color: white;
+    width: 300px;
+    padding: 10px;
+    height: 25px;
+    box-sizing: border-box;
+    font-size: 18px;
+   
+}
+
+#button {
+    border-style: solid;
+    border-color: aquamarine;
+    padding: 10px 20px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+label {
+    font-size: 24px;
+}
+
+h1 {
+    border-bottom: 3px solid black; 
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.container {
+   
+    display: inline-block;
+    padding: 20px;
+    
+    border-radius: 10px;
+}
+
+

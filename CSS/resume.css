@@ -1,0 +1,117 @@
+/* resume.css */
+
+/* Set overall font and background */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: black;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Container styling */
+.container {
+  width: 80%;
+  margin: 30px auto;
+  background: #ffffff;
+  padding: 20px 40px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  border-radius: 10px;
+}
+
+/* Header section */
+.header {
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 20px;
+}
+
+.header img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin-right: 30px;
+}
+
+.header-info h1 {
+  color: #0a66c2;
+  margin: 0;
+  font-size: 32px;
+}
+
+.header-info p {
+  margin: 5px 0;
+  font-size: 16px;
+  color: #666;
+}
+
+.header-info a {
+  color: #0a66c2;
+  text-decoration: none;
+}
+
+/* Section titles */
+.section h2 {
+  color: #0a66c2;
+  border-bottom: 2px solid #0a66c2;
+  padding-bottom: 5px;
+  margin-top: 30px;
+  font-size: 24px;
+}
+
+/* Skills styling */
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.skills span {
+  background-color: #e0f0ff;
+  color: #0a66c2;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 14px;
+}
+
+/* Lists and paragraphs */
+.section p, .section li {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* Links */
+a:hover {
+  text-decoration: underline;
+}
+
+/* Unordered list */
+.section ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+/* Responsive for smaller devices */
+@media (max-width: 768px) {
+  .container {
+    width: 90%;
+    padding: 20px;
+  }
+
+  .header {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .header img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  margin-right: 30px;
+  /* Remove the round shape */
+  border-radius: 0;
+}
+
+}
